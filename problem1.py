@@ -23,7 +23,7 @@ def solve(n):
         else:
             return l1[n//100] + const
         
-        
+    
 ans = 0
 for i in range(1,1001):
     ans += len(solve(i))
